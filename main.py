@@ -1,3 +1,5 @@
+# Shlomi Ben-Shushan
+
 import data as da
 import collaborative_filtering as cf
 import evaluation as ev
@@ -42,19 +44,18 @@ def evaluate_rec(user_based=True):
 
 
 def main():
-    # print('main start at', datetime.now().strftime('%H:%M:%S'))
     start_time = time.time()
     analysis((rating, movies))
-    print(f'Checkpoint 1 runtime: {round((time.time() - start_time), 4)} seconds')
+    print(f'Dataset analysis completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     collaborative_filtering_rec((rating, movies), user_based=True)
-    print(f'Checkpoint 2 runtime: {round((time.time() - start_time), 4)} seconds')
+    print(f'User-based CF completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     evaluate_rec(user_based=True)
-    print(f'Checkpoint 3 runtime: {round((time.time() - start_time), 4)} seconds')
+    print(f'User-based CF evaluation completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     collaborative_filtering_rec((rating, movies), user_based=False)
-    print(f'Checkpoint 4 runtime: {round((time.time() - start_time), 4)} seconds')
+    print(f'Item-based CF completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     evaluate_rec(user_based=False)
-    print(f'Total runtime: {round((time.time() - start_time), 4)} seconds')
-    print('main end at', datetime.now().strftime('%H:%M:%S'))
+    print(f'Item-based CF evaluatio completed. Runtime: {round((time.time() - start_time), 4)} seconds')
+    print('Done!\nRuntime:', datetime.now().strftime('%H:%M:%S'))
 
 
 if __name__ == '__main__':

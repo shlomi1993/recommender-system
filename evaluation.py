@@ -1,9 +1,7 @@
 # Shlomi Ben-Shushan
 
 
-from sklearn.metrics import mean_squared_error
 from math import sqrt
-import pandas as pd
 
 
 K = 10

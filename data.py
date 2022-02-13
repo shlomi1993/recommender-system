@@ -1,9 +1,7 @@
 # Shlomi Ben-Shushan
 
 
-import sys
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 
 def watch_data_info(data):
