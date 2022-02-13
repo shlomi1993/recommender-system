@@ -55,7 +55,7 @@ def main():
     print(f'Item-based CF completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     evaluate_rec(user_based=False)
     print(f'Item-based CF evaluatio completed. Runtime: {round((time.time() - start_time), 4)} seconds')
-    print('Done!\nRuntime:', datetime.now().strftime('%H:%M:%S'))
+    print(f'Done!')
 
 
 if __name__ == '__main__':
