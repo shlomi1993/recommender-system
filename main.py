@@ -54,7 +54,7 @@ def main():
     collaborative_filtering_rec((rating, movies), user_based=False)
     print(f'Item-based CF completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     evaluate_rec(user_based=False)
-    print(f'Item-based CF evaluatio completed. Runtime: {round((time.time() - start_time), 4)} seconds')
+    print(f'Item-based CF evaluation completed. Runtime: {round((time.time() - start_time), 4)} seconds')
     print(f'Done!')
 
 
