@@ -105,7 +105,6 @@ The results are:
 
 Program's output in a terminal:
   
-![image](https://user-images.githubusercontent.com/72878018/153746562-3651c4ea-ea31-486e-b7d3-806d3b795291.png)
-
+![image](https://user-images.githubusercontent.com/72878018/153746867-5d2320da-2410-4b0e-9980-bbec76c66192.png)
 
 
