@@ -104,6 +104,7 @@ The results are:
 ## Screenshots
 
 Program's output in a terminal:
+  
 ![image](https://user-images.githubusercontent.com/72878018/153746562-3651c4ea-ea31-486e-b7d3-806d3b795291.png)
 
 
