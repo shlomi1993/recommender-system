@@ -5,7 +5,7 @@
 
 This repository documents my implementation in Python of an AI Collaborative-Filtering Recommender System.
 
-![image](https://user-images.githubusercontent.com/72878018/153745128-337c8c2a-7cbb-4dc1-ac41-8512aced61cb.png)
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/153745128-337c8c2a-7cbb-4dc1-ac41-8512aced61cb.png></p>
 
 Recommender systems (RS) are a way of suggesting or similar items and ideas to a user’s specific way of thinking using Artificial Intelligence (AI).
 There are sevral types of Recommender Systems, but in this repo you can find the type Collaborative-Filtering (CF) that recommends items based on similarity measures between users and/or items. The basic assumption behind the algorithm is that users with similar interests have common preferences.
@@ -55,7 +55,7 @@ Data analysis based on ratings.csv:
   
 Ratings Distiburion:
   
-![image](https://user-images.githubusercontent.com/72878018/153745187-d6a30455-c2cc-4396-838e-8b1e57b277ea.png)
+<p align="center"><img src=https://user-images.githubusercontent.com/72878018/153745187-d6a30455-c2cc-4396-838e-8b1e57b277ea.png width=600></p>
 
 
 ### Part 2 - Collaborative Filtering
@@ -87,7 +87,7 @@ The system did recommend drama and romance movies to the user. Please note that 
 After analyzing the dataset and getting recommendations using the CF Recommender, we need to use some metrics to evaluate our system. 
 In this part we will use 3 metrics for evaluations - P@k (with k=10), ARHR and RMSE.
 
-![image](https://user-images.githubusercontent.com/72878018/153746164-4176c4dd-ec7d-43f7-918a-491aaa23d123.png)
+<img src=https://user-images.githubusercontent.com/72878018/153746164-4176c4dd-ec7d-43f7-918a-491aaa23d123.png width=350>
 
   
 The results are:  
