@@ -37,6 +37,7 @@ To run the system, please make sure your machine can run Python 3.8 or above and
 2. pandas
 3. sklearn
 4. matplotlib
+
 To install the packages, use the command "pip3 install <package-name>" in the terminal/console.
 
 
