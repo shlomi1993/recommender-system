@@ -1,6 +1,5 @@
 # Recommender System
 
-
 ## Description
 
 This repository documents my implementation in Python of an AI Collaborative-Filtering Recommender System.
@@ -16,7 +15,6 @@ There are two modes of using a CF-RS"
 
 For further reading: https://www.geeksforgeeks.org/recommendation-system-in-python/
 
-
 ## Dataset
 
 There are three main elements in the dataset of this RS:
@@ -29,7 +27,6 @@ You can download the dataset from the directory "data" in this repo, and you are
 
 Note: debugging and developping using the full dataset can take a lot of time, so you can use the smaller dataset in "data/debug".
 
-
 ## Requirements
 
 To run the system, please make sure your machine can run Python 3.8 or above and the following packages are installed:
@@ -39,7 +36,6 @@ To run the system, please make sure your machine can run Python 3.8 or above and
 4. matplotlib
 
 To install the packages, use the command "pip3 install <package-name>" in the terminal/console.
-
 
 ## Program Parts
   
@@ -57,7 +53,6 @@ Data analysis based on ratings.csv:
 Ratings Distiburion:
   
 <p align="center"><img src=https://user-images.githubusercontent.com/72878018/153745187-d6a30455-c2cc-4396-838e-8b1e57b277ea.png width=600></p>
-
 
 ### Part 2 - Collaborative Filtering
 After the analysis in part 1, this part of the program is the implementation of the Collaborative-Filtering.
@@ -107,5 +102,4 @@ The results are:
 Program's output in a terminal:
   
 ![image](https://user-images.githubusercontent.com/72878018/153746867-5d2320da-2410-4b0e-9980-bbec76c66192.png)
-
 
